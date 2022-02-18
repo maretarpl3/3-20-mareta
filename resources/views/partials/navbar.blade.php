@@ -12,13 +12,14 @@
           <a class="nav-link {{($title === 'Home')? 'active'? ''}}" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ $title === 'about') ? 'active'? ''}}" href="/about">About</a>
+          <a class="nav-link {{($title === 'about') ? 'active'? ''}}" href="/about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ $title ==='gallery') ? 'active'? ''}}" href="/gallery">Gallery</a>
+          <a class="nav-link {{($title ==='gallery') ? 'active'? ''}}" href="/gallery">Gallery</a>
 </li>
       <li class="nav-item">
-        <a class="nav-link {{ $title ==='contacts') ? 'active'?  ''}}" href="/contacts">Contacts</a>
+        <a class="nav-link {{ ($title ==='contacts') ? 'active'?  ''}}" href="/contacts">Contacts Us</a>
+        <a class="nav-link {{($title === 'contacts')? 'active'? ''}}" href="/ contacts">Contacts Us</a>
 </li>
    </ul>
     </div>
